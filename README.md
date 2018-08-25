@@ -1,12 +1,8 @@
 # Command Line Virustotal Url Scan
 
-You need apikey to use this script.
-
-There are 2 apikey as public and private.
+You need apikey to use this script. There are 2 apikey as public and private.
 
 Free virustotal account has public apikey. And it is suitable for "Url Scan".
-
-
 
 1-) Save the public apikey (on virustotal profile).
 
