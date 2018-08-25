@@ -1,6 +1,6 @@
 # Command Line Virustotal Url Scan
 
-You need apikey to use this script. There are 2 apikey as public and private.
+You need apikey to use this script. There are 2 apikeys as public and private.
 
 Free virustotal account has public apikey. And it is suitable for "Url Scan".
 
@@ -8,12 +8,12 @@ Free virustotal account has public apikey. And it is suitable for "Url Scan".
 
 2-) Edit the vt.py (place apikey instead of "<apikey>")
     
-3-) You have 2 option for analysis:
+3-) You have 2 options for analysis:
 
     -Scan a URL
     
     -Scan URL List
     
-4-) After scanning, you can view the result with option 3
+4-) After scanning, you can view the result with option "3"
 
     -Show report
