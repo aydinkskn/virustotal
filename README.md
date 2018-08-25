@@ -9,8 +9,11 @@ Free virustotal account has public apikey. And it is suitable for "Url Scan".
 2-) Edit the vt.py (place apikey instead of "<apikey>")
     
 3-) You have 2 option for analysis:
+
     -Scan a URL
+    
     -Scan URL List
     
 4-) After scanning, you can view the result with option 3
+
     -Show report
