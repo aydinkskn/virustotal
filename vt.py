@@ -22,7 +22,7 @@ def url_scan(ip):
         a=response.json()
         print(a['url'])
     except:
-        print("Cannot be connect to the VirusTotal Server")
+        print("Cannot be connected to the VirusTotal Server")
 
 def url_list():
     global urls
@@ -39,7 +39,6 @@ def url_report():
     params={'apikey': <apikey>, 'resource':scan_id}
     response=requests.get(url,params=params)
     b=response.json()
-    #print(b)
     try:
         threat=b['positives']
         print("[+]Completed. The result is {}/{}\n".format(threat,b['total']))
@@ -53,7 +52,7 @@ def url_report():
         print("[!]VirusTotal server error...")
     except:
         print("[!]Unknown error")
-    time.sleep(30.5) #Public Api_Key has time limit (4 request per minute)
+    time.sleep(30.5) #Public Api_Key has time limit (4 requests per minute)
 
 def show_report():
     with open("result.txt","r") as f:
@@ -76,7 +75,6 @@ while True:
         url_report()
     elif choice=="2":
         url_list()
-        #print(urls[0])
         counter=0
         for i in urls:
             counter+=1
